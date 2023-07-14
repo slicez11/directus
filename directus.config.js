@@ -24,7 +24,7 @@ module.exports = function (env) {
         MESSENGER_STORE: 'redis',
         SYNCHRONIZATION_STORE: 'redis',
         REDIS_HOST: env.REDISHOST,
-        REDIS_PORT: env.REDISPASSWORD,
+        REDIS_PORT: env.REDISPORT,
         CACHE_ENABLED: env.CACHE_ENABLED,
         CACHE_STORE: 'redis',
         REDIS_USERNAME: env.REDISPASSWORD,
