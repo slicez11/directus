@@ -27,7 +27,6 @@ module.exports = function (env) {
         REDIS_PORT: env.REDISPORT,
         CACHE_ENABLED: env.CACHE_ENABLED,
         CACHE_STORE: 'redis',
-        REDIS_USERNAME: env.REDISPASSWORD,
         REDIS_PASSWORD: env.REDISPASSWORD,
         STORAGE_LOCATIONS: "azure",
         STORAGE_AZURE_DRIVER: "azure",
