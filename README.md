@@ -1,6 +1,6 @@
 ---
 title: Directus
-description: A one-click-install Directus instance using PostgreSQL. Always install lastest version know of Directus.
+description: A one-click-install Directus instance using PostgreSQL and Redis
 tags:
   - javascript
   - directus
@@ -14,14 +14,14 @@ tags:
 
 This example runs a [Directus](https://directus.io/) instance with minimal config using PostgreSQL.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/2fy758?referralCode=4ArgSI)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/ZOQXZf?referralCode=nnevrP)
 
-## ✨ Features
+## ✨ Predefined Features
 
 - Directus
 - PostgreSQL
-- Javascript
 - Redis
+- S3
 
 ## 💁‍♀️ How to use
 
@@ -33,4 +33,6 @@ This example runs a [Directus](https://directus.io/) instance with minimal confi
 
 - This is a minimal one-click-deploy solution to Directus, see [Directus docs](https://docs.directus.io/getting-started/introduction.html) to config it to your needs.
 
-- Re-deploys won't erase your db data. Only redploy but updating your packge.json
+- Re-deploys won't erase your db data. Only re-dploy by updating the copied repo.
+
+
