@@ -6,6 +6,8 @@ tags:
   - directus
   - cms
   - postgreSQL
+  - redis
+  - Any Extension
 ---
 
 # Directus railway template
@@ -19,6 +21,7 @@ This example runs a [Directus](https://directus.io/) instance with minimal confi
 - Directus
 - PostgreSQL
 - Javascript
+- Redis
 
 ## 💁‍♀️ How to use
 
@@ -30,4 +33,4 @@ This example runs a [Directus](https://directus.io/) instance with minimal confi
 
 - This is a minimal one-click-deploy solution to Directus, see [Directus docs](https://docs.directus.io/getting-started/introduction.html) to config it to your needs.
 
-- Re deploys won't erase your db data since according to Directus docs `Directus will use an existing .env file (or existing environment variables) to either install the database (if it's empty) or migrate it to the latest version (if it already exists and has missing migrations).` but be careful!
+- Re-deploys won't erase your db data. Only redploy but updating your packge.json
